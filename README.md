@@ -55,7 +55,7 @@ skystore/
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone <https://github.com/mouseanastasiyaa-alt/skystore>
+- Репозиторий: https://github.com/mouseanastasiyaa-alt/skystore
 cd skystore
 ```
 
@@ -146,3 +146,20 @@ python manage.py runserver
 ## 📄 Лицензия
 
 Проект создан в учебных целях.
+
+## Что сделано в домашнем задании №1
+
+- Django-проект Skystore с приложением `catalog`
+- Приложение зарегистрировано в `INSTALLED_APPS`
+- Настроена маршрутизация через `include`
+- Шаблоны `home.html` и `contacts.html` с Bootstrap 5
+- Контроллеры `home` и `contacts` через `render`
+- Форма обратной связи с сообщением об успехе
+- `.gitignore`, `requirements.txt`
+
+## Маршруты
+
+| URL | Контроллер | Шаблон |
+|---|---|---|
+| `/` | `catalog.views.home` | `catalog/home.html` |
+| `/contacts/` | `catalog.views.contacts` | `catalog/contacts.html` |

@@ -1,0 +1,19 @@
+# Идея
+.idea/
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Базы данных SQLite
+*.sqlite3
+db.sqlite3
+
+# Прочее
+.DS_Store
